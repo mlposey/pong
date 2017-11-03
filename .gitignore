@@ -1,0 +1,8 @@
+server/.idea
+server/.settings
+server/out
+server/target
+server/.project
+server/.classpath
+server/pong-server.iml
+.vscode
