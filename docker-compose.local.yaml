@@ -1,0 +1,17 @@
+version: '3'
+services:
+  serv:
+    build: ./server
+    restart: always
+    ports:
+      - 8001:8001
+  
+  web:
+    image: nginx:1.13.6
+    restart: always
+    ports:
+      - 80:80
+    depends_on:
+      - serv
+    volumes:
+      - ./client:/usr/share/nginx/html:ro
