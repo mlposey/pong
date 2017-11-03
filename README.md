@@ -2,7 +2,7 @@
 This is a multiplayer implementation of the classic pong game. The client is written in Javascript and the server in Java. WebSocket
 provides the communication protocol for message exchange.
 
-A live version of the game is located at pong.marcusposey.com.
+A live version of the game is located [here](http://pong.marcusposey.com).
 
 # Deployment
 ## Manual Setup
